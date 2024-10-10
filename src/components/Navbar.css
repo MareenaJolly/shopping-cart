@@ -1,0 +1,56 @@
+/*navbar.css*/
+
+/* Styling for the navbar container */
+.navbar {
+    background-color: #007bff; /* Primary blue color */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for the brand/logo section */
+  .navbar-brand h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* List styling */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+  }
+  
+  /* Individual link styling */
+  .navbar-links .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect for links */
+  .navbar-links .nav-link:hover {
+    color: #ffdd57; /* Soft yellow for hover effect */
+  }
+  
+  /* Responsive styling for mobile view */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
